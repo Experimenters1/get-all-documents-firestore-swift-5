@@ -146,5 +146,34 @@ class Look__Photos: UIViewController {
 ```
 ![image](https://github.com/Experimenters1/get-all-documents-firestore-swift-5/assets/64000769/fa8c832b-62e4-4081-a813-34dfda9ac1a3) <br><br>
 
+![image](https://github.com/Experimenters1/get-all-documents-firestore-swift-5/assets/64000769/dade034a-3524-4a8e-b7a7-617a9fb30ca6) <br><br>
+
+![image](https://github.com/Experimenters1/get-all-documents-firestore-swift-5/assets/64000769/f0b8c491-014c-413b-9a55-0fbc7a4dedec) <br><br>
+
+Để sửa đổi trực tiếp một tài liệu trong **Firestore bằng Swift**, bạn cần sử dụng **Firestore SDK của Firebase**. Dưới đây là một ví dụ cách bạn có thể thực hiện điều này:
+```swift
+import FirebaseFirestore
+
+// Đường dẫn của tài liệu bạn muốn sửa đổi
+let documentPath = "users/user-1"
+
+// Tham chiếu đến Firestore
+let db = Firestore.firestore()
+
+// Thực hiện truy vấn để cập nhật trường "name" trong tài liệu
+db.document(documentPath).setData(["name": "Huy"], merge: true) { (error) in
+    if let error = error {
+        print("Lỗi khi cập nhật dữ liệu: \(error.localizedDescription)")
+    } else {
+        print("Dữ liệu đã được cập nhật thành công.")
+    }
+}
+```
+![image](https://github.com/Experimenters1/get-all-documents-firestore-swift-5/assets/64000769/d7a1ee61-ef2b-454b-b3eb-02038f97dfdb)<br><br>
+
+
+
+
+
 
 
