@@ -146,6 +146,8 @@ class Look__Photos: UIViewController {
 ```
 ![image](https://github.com/Experimenters1/get-all-documents-firestore-swift-5/assets/64000769/fa8c832b-62e4-4081-a813-34dfda9ac1a3) <br><br>
 
+## Firestore Data Organization <br><br>
+
 ![image](https://github.com/Experimenters1/get-all-documents-firestore-swift-5/assets/64000769/dade034a-3524-4a8e-b7a7-617a9fb30ca6) <br><br>
 
 ![image](https://github.com/Experimenters1/get-all-documents-firestore-swift-5/assets/64000769/f0b8c491-014c-413b-9a55-0fbc7a4dedec) <br><br>
